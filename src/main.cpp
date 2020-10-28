@@ -26,7 +26,6 @@ int main(int argc, char **argv) {
                 write(1, help.data(), help.size());
                 exit(0);
             case 'A':
-                hex = true;
                 break;
 
         }
